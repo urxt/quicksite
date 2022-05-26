@@ -1,6 +1,7 @@
+#!/usr/bin/env python3
 def main():
     with open('templates/earth/template.html', 'r') as f:
-        myfile = f.read()
+        myfile = f.read().replace("{ List of Blogpages }", "Stuff")
 
     print(myfile)
 
