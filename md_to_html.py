@@ -8,5 +8,8 @@ def main():
 
         print(html)
 
+    with open('example.html', 'w') as f:
+        f.write(html)
+
 if __name__ == "__main__":
     main()
