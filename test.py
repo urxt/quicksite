@@ -1,4 +1,3 @@
-
 def main():
     with open('templates/earth/template.html', 'r') as f:
         myfile = f.read()
