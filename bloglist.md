@@ -1,1 +1,0 @@
-+ [endoftimes](blogpages/endoftimes.md)

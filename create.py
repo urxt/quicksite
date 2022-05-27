@@ -1,3 +1,4 @@
+# Create a new blog
 import sys
 
 def create_file(filename):
