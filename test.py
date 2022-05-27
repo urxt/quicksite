@@ -9,7 +9,6 @@ def main():
     with open('templates/earth/template.html', 'r') as f:
         myfile = f.read().replace("{ List of Blogpages }", myblogs)
         f.close()
-
     print(myfile)
 
 if __name__ == "__main__":
